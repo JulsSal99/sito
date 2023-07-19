@@ -1,0 +1,108 @@
+  <!-- achieve section -->
+<!--
+  <section class="achieve_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          ACHIEVEMENTS
+        </h2>
+        <p>
+          minim veniam, quis nostrud exercitation ullamco laboris nisi
+        </p>
+      </div>
+      <div class="achieve_container">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/a-1.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h2>
+              1000+
+            </h2>
+            <h6>
+              Photo Session
+            </h6>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/a-2.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h2>
+              9000+
+            </h2>
+            <h6>
+              Happy Customers
+            </h6>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/a-3.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h2>
+              1000+
+            </h2>
+            <h6>
+              Archive Photographs
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+  <!-- end achieve section -->
+
+
+  <!-- contact section -->
+<!--
+  <section class="contact_section layout_padding">
+    <div class="bg-img1">
+      <img src="images/bg-img-1.png" alt="">
+    </div>
+    <div class="bg-img2">
+      <img src="images/bg-img-2.png" alt="">
+    </div>
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Contact Us
+        </h2>
+      </div>
+      <div class="">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <form action="">
+              <div class="contact_form-container">
+                <div>
+                  <div>
+                    <input type="text" placeholder="Name">
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Phone Number">
+                  </div>
+                  <div>
+                    <input type="email" placeholder="Email">
+                  </div>
+                  <div class="">
+                    <input type="text" placeholder="Message" class="message_input">
+                  </div>
+                  <div class=" d-flex justify-content-center ">
+                    <button type="submit">
+                      Send
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+
+  <!-- end contact section -->
