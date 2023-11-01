@@ -102,18 +102,15 @@
       </div>
     </section>
     -->
-    <section>
-      <div class="container-fluid">
-          <div class="col-md-5 px-0">
-            <div class="img-box" style="padding-left:25%; padding-bottom:5%">
-              <img src="images\next.png" alt="">
-            </div>
-        </div>
-      </div>
-    </section>
 
     <section class=" slider_section position-relative">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+          </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container-fluid">
@@ -136,7 +133,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 px-0">
+                <div class="col-md-6" style="padding-left: 0px;  padding-right: 0px;">
                   <div class="img-box">
                     <img src="images/HomeNews/3.webp" alt="">
                   </div>
@@ -166,9 +163,9 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 px-0">
-                  <div class="img-box">
-                    <img src="images/HomeNews/1.jpeg" alt="" style="width: 80%">
+                <div class="col-md-6" style="padding-left: 0px;  padding-right: 0px; height:100%">
+                  <div class="img-box" style="width:75%">
+                    <img src="images/HomeNews/1.jpeg" alt="">
                   </div>
                 </div>
               </div>
@@ -177,7 +174,7 @@
           <div class="carousel-item">
             <div class="container-fluid">
               <div class="row">
-                <div class="col-md-5 offset-md-1">
+                <div class="col-md-4 offset-md-1">
                   <div class="detail_box">
                     <h1>
                       Anche sui social!
@@ -195,7 +192,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 px-0">
+                <div class="col-md-7 px-0" style="padding-left: 0px;  padding-right: 0px;">
                   <div class="img-box">
                     <img src="images/HomeNews/2.png" alt="">
                   </div>
@@ -204,23 +201,19 @@
             </div>
           </div>
         </div>
-        <!--<div class="carousel_btn-container">
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="sr-only">Next</span>
-          </a>
-        </div>-->
+        <a class="left carousel-control" href="#carouselExampleControls" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carouselExampleControls" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
 
     </section>
     <!-- end slider section -->
   </div>
-
-
-
-
 
   <!-- info section -->
   <section class="info_section ">
