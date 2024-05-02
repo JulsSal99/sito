@@ -1,10 +1,10 @@
 ---
-title: Santo - Tommaso Bailo, Renato Giorgi
+title: Kyrie eleison - Tommaso Bailo, Renato Giorgi
 author: Juls99
 date: today
 ---
 
-<h1 style="margin-bottom:0;">Santo</h1>
+<h1 style="margin-bottom:0;">Kyrie eleison</h1>
 Tommaso Bailo, Renato Giorgi
 <br><br>
 
