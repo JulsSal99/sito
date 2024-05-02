@@ -8,7 +8,7 @@ date: today
 Tommaso Bailo, Renato Giorgi
 <br><br>
 
-**Fa Si Fa Si**
+**Fa Sib Fa Sib**
 
 
 (x3)
@@ -24,4 +24,4 @@ Christe e leison.
 
 <br>
 
-**Fa/Do Si**
+**Fa/Do Sib**
