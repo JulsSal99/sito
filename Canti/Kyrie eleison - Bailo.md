@@ -8,6 +8,7 @@ date: today
 Tommaso Bailo, Renato Giorgi
 <br><br>
 
+<img title="a title" alt="Alt text" src="./Kyrie-eleison-Bailo-intro.jpg" width="200"/>
 **Fa Sib Fa Sib**
 
 
@@ -17,11 +18,7 @@ Kyrie ele\--\--\--ison,
 **La- Re-&ensp; Sol- Do**
 Christe e lei--son,
 
-**Sib Do/Mi La- Sol-7/Fa**
-Ky &ensp;rie elei-son,
-**Sol- Fa-&ensp;Do/Mi** 
-Christe e leison.
-
-<br>
-
-**Fa/Do Sib**
+**Sib (Sib/Re) Do7 La- Re-**
+Ky &ensp; rie &ensp; &ensp; &ensp; e- &ensp; lei- &ensp;son,
+**Sol- &ensp; &ensp;Re-/Sib Sol- Do Fa9/Do (Sib/Do)** 
+Christe e &ensp; &ensp; &ensp; &ensp; le- &ensp; i- &ensp;son.
