@@ -14,7 +14,7 @@ Tommaso Bailo, Renato Giorgi
 
 (x3)
 **Fa Re- Sib (Do) Fa**
-Kyrie ele\--\--\--ison,
+Kyrie ele\--\--\--ison,\
 **La- Re-&ensp; Sol- Do**
 Christe e lei--son,
 
