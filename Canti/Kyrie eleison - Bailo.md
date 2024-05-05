@@ -13,12 +13,12 @@ Tommaso Bailo, Renato Giorgi
 
 
 (x3)
-**Fa Re- Sib (Do) Fa**
+**Fa Re- Sib (Do) Fa**\
 Kyrie ele\--\--\--ison,\
-**La- Re-&ensp; Sol- Do**
+**La- Re-&ensp; Sol- Do**\
 Christe e lei--son,
 
-**Sib (Sib/Re) Do7 La- Re-**
-Ky &ensp; rie &ensp; &ensp; &ensp; e- &ensp; lei- &ensp;son,
-**Sol- &ensp; &ensp;Re-/Sib Sol- Do Fa9/Do (Sib/Do)** 
+**Sib (Sib/Re) Do7 La- Re-**\
+Ky &ensp; rie &ensp; &ensp; &ensp; e- &ensp; lei- &ensp;son,\
+**Sol- &ensp; &ensp;Re-/Sib Sol- Do Fa9/Do (Sib/Do)** \
 Christe e &ensp; &ensp; &ensp; &ensp; le- &ensp; i- &ensp;son.
