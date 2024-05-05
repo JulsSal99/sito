@@ -8,14 +8,16 @@ date: today
 Tommaso Bailo, Renato Giorgi
 <br><br>
 
+<img title="a title" alt="Alt text" src="./Santo-Bailo-intro.jpg" width="80%"/>
+
 **Sol Si-/Re Do Re Sol(Fondamentale) La- Si- Do Re**
 
 **Sol  Si-/Re Do Re**
-Sa\--nto &ensp; Sa-nto
-**Si &ensp;Sol &emsp;Mi- &emsp; Do &emsp;Re/Fa# Re**
-Sa\--nto, il Signore Dio dell'Universo
+Sa\--nto &emsp; Sa-nto
+**Si &ensp;Mi- &emsp;&ensp; Do &ensp;La/Do# &ensp;Re/Fa# Re**
+Sa\--nto, il Signore Dio dell'Unive - - - - - rso
 
-**&ensp;La- &emsp; Sol &emsp;  Si/La Sol**
+**&ensp;La- &emsp; Sol &emsp;  Si/Re Sol**
 I Cieli e la terra Sono pieni di te
 **Mi- Re/Fa# Do/Sol Sol Re   (Do Re)**
 ne\--lla  &emsp;    tua &emsp;glo-ria
