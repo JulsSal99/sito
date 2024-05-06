@@ -8,54 +8,44 @@ date: today
 Tommaso Bailo, Renato Giorgi
 <br><br>
 
-<img title="a title" alt="Alt text" src="./Santo-Bailo-intro.jpg" width="80%"/>
+<img title="title" alt="Alt text" src="./Santo-Bailo-intro.jpg" width="80%"/>
 
 **Sol Si-/Re Do Re Sol(Fondamentale) La- Si- Do Re**
 
 **Sol  Si-/Re Do Re**
 Sa\--nto &emsp; Sa-nto
-**Si &ensp;Mi- &emsp;&ensp; Do &ensp;La/Do# &ensp;Re/Fa# Re**
-Sa\--nto, il Signore Dio dell'Unive - - - - - rso
+**Si &ensp;Mi- &emsp;&ensp; Do &ensp;La/Do# &ensp;Re4 Re**
+Sa\--nto, il Signore Dio dell'Unive - - rso
 
-**&ensp;La- &emsp; Sol &emsp;  Si/Re Sol**
-I Cieli e la terra Sono pieni di te
-**Mi- Re/Fa# Do/Sol Sol Re   (Do Re)**
-ne\--lla  &emsp;    tua &emsp;glo-ria
+**&ensp;La- &emsp; Mi- &emsp;  Si/Re# Mi-**
+I Cieli e la terra Sono pieni di &ensp; te
+**La- &ensp;Do/Sol Sol &ensp;Re &ensp; Do Re Re**
+della tua &emsp;glo - ria
 
+#### Ritornello: 
 **Do Sol**
 Osanna 
 **Si &nbsp; Mi-**
 Osanna
-**&emsp;&emsp;Do  &emsp;La-/Do   Sol Re**
-Osanna nell'alto dei cie-li
+**&emsp;&emsp;La- &emsp;La-/Do   Sol/Re Re**
+Osanna nell'alto dei cie - - -  li
 **Do Sol**
 Osanna 
 **Si &nbsp; Mi-**
 Osanna
-**&emsp;&emsp;Do  &emsp;La-/Do&ensp;Re&ensp;Do**
+**&emsp;&emsp;La- &emsp;La-/Do&ensp;Re&ensp;Do**
 Osanna nell'alto dei cie\--li
 
+<br>
 
 **Sol &emsp; Si-/Re&emsp;Do  &emsp; Re**
 E benedetto colui che viene
 **Mi-&emsp;Do &emsp; &emsp; Sol &emsp;Re**
 Ne\--l nome del Signo-re
 
-**La- &emsp; Sol&emsp;&emsp;Si-  &emsp; Do**
+**La- &emsp; Mi-&emsp;&emsp;Si-  &emsp; Do**
 E benedetto colui che viene
-**&emsp; &emsp; Mi-&emsp; Do&emsp; Sol  Re   (Do Re)**
-Ne\--l nome dell'Altissimo
+**&ensp; &emsp; Mi-&emsp; (Do) Sol Re &ensp; Do Re Re**
+Nel nome dell'Altissimo
 
-
-**Do Sol**
-Osanna 
-**Si &nbsp; Mi-**
-Osanna
-**&emsp;&emsp;Do  &emsp;La-/Do   Sol Re**
-Osanna nell'alto dei cie-li
-**Do Sol**
-Osanna 
-**Si &nbsp; Mi-**
-Osanna
-**&emsp;&emsp;Do  &emsp;La-/Do&ensp;Re&ensp;Do**
-Osanna nell'alto dei cie\--li
+**Ritornello x1**

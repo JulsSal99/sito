@@ -8,25 +8,27 @@ date: today
 Tommaso Bailo, Renato Giorgi
 <br><br>
 
+<img title="title" alt="Alt text" src="./Agnello-di-Dio-Bailo-intro.jpg" width="90%"/>
+
 **Sol# Re# Do# Do/Mi**
 
-**&ensp;Sol#**(Re#)**Do#/Fa**
-Agnello di Dio,
-**&emsp; &ensp;Do# &emsp; &emsp; &emsp;&emsp;&emsp;Re#**
+**&ensp;Sol# Sol#/Do Re#/Do# Do#**
+Agne - llo &emsp; di Di - - - - - o,
+**&emsp; &ensp;Si#- &emsp;&ensp; Do# &emsp;&ensp; Re#**
 che togli i peccati del mondo,
-**Sol# Re#&ensp;Do# &emsp; Do**
-a\--\--bbi &emsp; pietà di noi.
+**Sol# Do-&ensp; Do# &ensp; &emsp; Do7 Do**
+a - - - bbi &ensp; pietà &ensp;di noi.
 
-**&ensp;Sol#**(Re#)**Do#/Fa**
-Agnello di Dio,
-**&emsp; &ensp;Do# &emsp; &emsp; &emsp;&emsp;&emsp;Re#**
+**&ensp;Sol# Sol#/Do Re#/Do# Do#**
+Agne - llo &emsp; di Di - - - - - o,
+**&emsp; &ensp;Si#- &emsp;&ensp; Do# &emsp;&ensp; Re#**
 che togli i peccati del mondo,
-**Sol# Re#&ensp;Do# &emsp; Do**
-a\--\--bbi &emsp; pietà di noi.
+**Sol# Do7/Sol&ensp; &emsp; Fam&ensp;Do7 Do**
+a - - - bbi &emsp; &emsp; pietà &ensp;di noi.
 
-**&ensp;Sol#**(Re#)**Do#/Fa**
-Agnello di Dio,
-**&emsp; &ensp;Do# &emsp; &emsp; &emsp;&emsp;&emsp;Re#**
+**&ensp;Sol# Sol#/Do Re#/Do# Do#**
+Agne - llo &emsp; di Di - - - - - o,
+**&emsp; &ensp;Si#- &emsp;&ensp; Fa- &emsp;&ensp; Re#**
 che togli i peccati del mondo,
-**Sol# Re#&ensp;Do# &ensp;Re#&ensp; &emsp; Do**
+**Sol# Do-&ensp; Do# &ensp; &emsp;&emsp;&emsp; Fa**
 do\--\--na a noi la pace, la pace...

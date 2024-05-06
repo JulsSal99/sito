@@ -1,4 +1,4 @@
-﻿---
+---
 title: Gloria - Tommaso Bailo, Renato Giorgi
 author: Juls99
 date: today
@@ -8,10 +8,10 @@ date: today
 Tommaso Bailo, Renato Giorgi
 <br><br>
 
-<img title="a title" alt="Alt text" src="./Gloria-Bailo-accordi-Intro.jpg" width="90%"/>
-
+<img title="title" alt="Alt text" src="./Gloria-Bailo-Intro.jpg" width="90%"/>
 
 #### Ritornello:
+
 **Re La Sol Re &ensp;Mi- &emsp; Do &emsp; &emsp; La4 La**\
 Gloria, Gloria a Dio nell'alto dei cie - - li.\
 **Re &ensp; &ensp; &emsp; Fa#- &emsp; &ensp;Sol Si7 Mi- &emsp; &emsp; La La7 Sol Re** \
