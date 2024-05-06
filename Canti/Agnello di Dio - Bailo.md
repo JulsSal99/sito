@@ -10,7 +10,7 @@ Tommaso Bailo, Renato Giorgi
 
 <img title="title" alt="Alt text" src="./Agnello-di-Dio-Bailo-intro.jpg" width="90%"/>
 
-**Sol# Re# Do# Do/Mi**
+Sol# Do- Re# Mib Do
 
 **&ensp;Sol# Sol#/Do Re#/Do# Do#**
 Agne - llo &emsp; di Di - - - - - o,
@@ -30,5 +30,5 @@ a - - - bbi &emsp; &emsp; pietà &ensp;di noi.
 Agne - llo &emsp; di Di - - - - - o,
 **&emsp; &ensp;Si#- &emsp;&ensp; Fa- &emsp;&ensp; Re#**
 che togli i peccati del mondo,
-**Sol# Do-&ensp; Do# &ensp; &emsp;&emsp;&emsp; Fa**
+**Sol# Do-&ensp; Do# &ensp;Re# &emsp;&emsp; Fa**
 do\--\--na a noi la pace, la pace...

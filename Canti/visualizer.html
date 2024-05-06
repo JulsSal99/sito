@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Immagini raggruppate con ingrandimento e navigazione tra gruppi</title>
+<style>
+    .image-group {
+        margin-bottom: 20px;
+    }
+    .image-group h2 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+    .image-group img {
+        margin-right: 10px;
+        margin-bottom: 10px;
+        width: 250px;
+        cursor: pointer;
+    }
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 9999;
+    }
+    .overlay img {
+        display: block;
+        margin: auto;
+        max-width: 90%;
+        max-height: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .overlay .close, .overlay .pagenum {
+        position: absolute;
+        top: 20px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 40px;
+        padding: 20px;
+    }
+    .overlay .close{
+        right: 20px;
+    }
+    .overlay .pagenum{
+        left: 20px;
+    }
+    .overlay .navigation {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .overlay .navigation .arrow {
+        padding: 50px; /* Aumenta il padding per una hitbox più grande */
+    }
+
+    /* Stili per il link di download */
+    a.download-link {
+        color: rgba(56, 56, 56, 0.424); /* Colore del testo */
+        text-decoration: none; /* Rimuovi la sottolineatura */
+        font-family: Arial, sans-serif; /* Font familiare */
+        font-size: 25px; /* Dimensione del testo */
+        font-weight: bolder; /* Grassetto */
+        position: fixed; /* Posizionamento fisso */
+        top: 10px; /* Distanza dall'alto */
+        right: 10px; /* Distanza dalla destra */
+    }
+
+    /* Stili per il link di download quando è in hover (passaggio del mouse) */
+    a.download-link:hover {
+        text-decoration: underline; /* Sottolineatura al passaggio del mouse */
+    }
+    .pagenum {
+        max-width: 65%;
+    }
+
+    /* Media query per dispositivi mobili */
+    @media screen and (max-width: 768px) {
+        a.download-link{
+            font-size: 15px;
+        }
+        .image-group h2 {
+            font-size: 30px;
+        }
+        .image-group img {
+            width: 120px;
+        }
+        .overlay .pagenum{
+            top: 40px;
+            font-size: 25px;
+            padding: 10px;
+        }
+        .overlay .navigation {
+            top:25%;
+            color:rgba(240, 248, 255, 0);
+        }
+        .overlay .navigation .arrow {
+            font-size: 10px;
+            padding-top: 50%;
+            padding-bottom: 50%;
+        }
+        .overlay img{
+            pointer-events: none;  /* Consente ai clic di passare attraverso l'elemento */
+        }
+        .close{
+            font-size: 40px;
+            padding: 40px;
+        }
+    }
+</style>
+</head>
+<body>
+    <a class="download-link" href="https://github.com/JulsSal99/sito/tree/main/Canti">Torna alla Repository</a>
+    <div id="imageContainer"></div>
+    <div class="overlay" id="overlay">
+        <span class="close" onclick="closeOverlay()">&times;</span>
+        <span class="pagenum">0</span>
+        <div class="navigation">
+            <span class="arrow" onclick="navigateImages(-1)">&#10094;</span>
+            <span class="arrow" onclick="navigateImages(1)">&#10095;</span>
+        </div>
+        <img id="overlayImg">
+    </div>
+<script>
+    const thumbnailsPath = "thumbnails/";
+
+
+    const imageGroups = {
+        "Kyrie eleison - Bailo": ["Kyrie-eleison-Bailo.png"],
+        "Gloria - Bailo": ["Gloria-Bailo.png"],
+        "Santo - Bailo": ["Santo-Bailo-1.png", "Santo-Bailo-2.png"],
+        "Agnello di Dio - Bailo": ["Agnello-di-Dio-Bailo.png"],
+        // Aggiungi altri gruppi e immagini se necessario
+    };
+
+
+    function createImageGroups() {
+        const container = document.getElementById("imageContainer");
+
+        for (const groupName in imageGroups) {
+            const images = imageGroups[groupName];
+            const groupDiv = document.createElement("div");
+            groupDiv.classList.add("image-group");
+
+            const heading = document.createElement("h2");
+            heading.textContent = groupName;
+            groupDiv.appendChild(heading);
+
+            images.forEach((image, index) => {
+                const img = document.createElement("img");
+                img.src = thumbnailsPath + image;
+                img.onclick = () => openOverlay(images, index, groupName);
+                groupDiv.appendChild(img);
+            });
+
+            container.appendChild(groupDiv);
+        }
+    }
+
+    function openOverlay(images, index, groupName) {
+        abilitaNavigazioneFrecce();
+        const overlay = document.getElementById("overlay");
+        const overlayImg = document.getElementById("overlayImg");
+        const spanElement = document.querySelector("span.pagenum");
+        spanElement.textContent = "[" + imageGroups[groupName].length + "] " + groupName;
+
+        overlay.style.display = "block";
+        overlayImg.src = thumbnailsPath + images[index];
+        overlayImg.dataset.group = JSON.stringify(images);
+        overlayImg.dataset.index = index;
+        groupTitle.textContent = groupName;
+        document.getElementById("imageContainer").appendChild(groupTitle);
+        document.getElementById("imageContainer").appendChild(document.createElement("br")); // Aggiungiamo una riga vuota per lo spazio
+    }
+
+
+    function closeOverlay() {
+        document.getElementById("overlay").style.display = "none";
+        const pageTitle = document.querySelector("#imageContainer h3");
+        const groupTitle = document.querySelector("#imageContainer h3 + h3");
+        if (pageTitle) pageTitle.remove();
+        if (groupTitle) groupTitle.remove();
+        const firstGroupName = Object.keys(imageGroups)[0];
+        document.querySelector(".image-group h2").textContent = firstGroupName;
+        disabilitaNavigazioneFrecce()
+    }
+
+    function navigateImages(direction) {
+        const overlayImg = document.getElementById("overlayImg");
+        const currentIndex = parseInt(overlayImg.dataset.index);
+        const currentGroupImages = JSON.parse(overlayImg.dataset.group);
+
+        let newIndex;
+
+        if (direction === 1) {
+            newIndex = currentIndex + 1;
+            if (newIndex >= currentGroupImages.length) {
+                const groupNames = Object.keys(imageGroups);
+                const currentGroupName = document.querySelector(".image-group h2").textContent;
+                const currentGroupIndex = groupNames.indexOf(currentGroupName);
+                const nextGroupIndex = (currentGroupIndex + 1) % groupNames.length;
+                const nextGroupName = groupNames[nextGroupIndex];
+                const nextGroupImages = imageGroups[nextGroupName];
+                overlayImg.src = thumbnailsPath + nextGroupImages[0];
+                overlayImg.dataset.group = JSON.stringify(nextGroupImages);
+                overlayImg.dataset.index = 0;
+                document.querySelector(".image-group h2").textContent = nextGroupName;
+                const spanElement = document.querySelector("span.pagenum");
+                spanElement.textContent = "[" + nextGroupImages.length + "] " + nextGroupName;
+            } else {
+                overlayImg.src = thumbnailsPath + currentGroupImages[newIndex];
+                overlayImg.dataset.index = newIndex;
+                const spanElement = document.querySelector("span.pagenum");
+                spanElement.textContent = "[" + nextGroupImages.length + "] " + nextGroupName;
+            }
+        } else if (direction === -1) {
+            newIndex = currentIndex - 1;
+            if (newIndex < 0) {
+                const groupNames = Object.keys(imageGroups);
+                const currentGroupName = document.querySelector(".image-group h2").textContent;
+                const currentGroupIndex = groupNames.indexOf(currentGroupName);
+                const prevGroupIndex = (currentGroupIndex - 1 + groupNames.length) % groupNames.length;
+                const prevGroupName = groupNames[prevGroupIndex];
+                const prevGroupImages = imageGroups[prevGroupName];
+                overlayImg.src = thumbnailsPath + prevGroupImages[prevGroupImages.length - 1];
+                overlayImg.dataset.group = JSON.stringify(prevGroupImages);
+                overlayImg.dataset.index = prevGroupImages.length - 1;
+                document.querySelector(".image-group h2").textContent = prevGroupName;
+                const spanElement = document.querySelector("span.pagenum");
+                spanElement.textContent = "[" + prevGroupImages.length + "] " + prevGroupName;
+            } else {
+                overlayImg.src = thumbnailsPath + currentGroupImages[newIndex];
+                overlayImg.dataset.index = newIndex;
+                const spanElement = document.querySelector("span.pagenum");
+                spanElement.textContent = "[" + nextGroupImages.length + "] " + nextGroupName;
+            }
+        }
+    }
+
+    let eventListenerAdded = false;
+
+    function abilitaNavigazioneFrecce() {
+        // Verifica se l'ascoltatore degli eventi è già stato aggiunto per evitare di aggiungerlo più volte
+        if (!eventListenerAdded) {
+            // Aggiungi un listener per l'evento keydown sulla finestra
+            window.addEventListener('keydown', gestisciPressioneTasto);
+            eventListenerAdded = true;
+        }
+    }
+
+    function disabilitaNavigazioneFrecce() {
+        // Rimuovi l'ascoltatore degli eventi keydown dalla finestra
+        window.removeEventListener('keydown', gestisciPressioneTasto);
+        eventListenerAdded = false;
+    }
+
+    function gestisciPressioneTasto(event) {
+        // Controlla se è stato premuto il tasto freccia sinistra
+        if (event.key === "ArrowLeft") {
+            navigateImages(-1); // Naviga all'immagine precedente
+        }
+        // Controlla se è stato premuto il tasto freccia destra
+        else if (event.key === "ArrowRight") {
+            navigateImages(1); // Naviga all'immagine successiva
+        }
+    }
+    createImageGroups();
+</script>
+</body>
+</html>
