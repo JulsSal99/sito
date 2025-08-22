@@ -2,4 +2,4 @@
 My personal info for strangers
 
 Open with:
-https://julssal99.github.io/sito/
+https://julssal99.github.io/Giulio-Salada-sito/
